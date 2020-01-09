@@ -1,6 +1,6 @@
 Name:           cal10n
 Version:        0.7.7
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Compiler assisted localization library (CAL10N)
 License:        MIT
 URL:            http://cal10n.qos.ch
@@ -63,6 +63,9 @@ find . -name \*.jar -delete
 %doc LICENSE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.7.7-4
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0.7.7-3
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
